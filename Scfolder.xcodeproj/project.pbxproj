@@ -7,23 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E372D71227E8A8EE00E217AF /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E372D71127E8A8EE00E217AF /* Quotes.swift */; };
 		E3DB689427E8690C002CA15B /* ScfolderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB689327E8690C002CA15B /* ScfolderApp.swift */; };
 		E3DB689627E8690C002CA15B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB689527E8690C002CA15B /* ContentView.swift */; };
 		E3DB689827E8690E002CA15B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DB689727E8690E002CA15B /* Assets.xcassets */; };
 		E3DB689B27E8690E002CA15B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DB689A27E8690E002CA15B /* Preview Assets.xcassets */; };
+		E3DB68A927E869B3002CA15B /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB68A827E869B3002CA15B /* FinderSync.swift */; };
+		E3DB68AE27E869B3002CA15B /* Scfolder Finder Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E3DB68A627E869B3002CA15B /* Scfolder Finder Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3DB68B427E86A1A002CA15B /* URL+XATTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB68B327E86A1A002CA15B /* URL+XATTR.swift */; };
+		E3DB68B727E86CC7002CA15B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DB68B627E86CC7002CA15B /* Assets.xcassets */; };
+		E3DB68BA27E87C9A002CA15B /* Folders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB68B927E87C9A002CA15B /* Folders.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E3DB68AC27E869B3002CA15B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3DB688827E8690C002CA15B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3DB68A527E869B3002CA15B;
+			remoteInfo = "Scfolder Finder Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E3DB68B227E869B3002CA15B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E3DB68AE27E869B3002CA15B /* Scfolder Finder Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E372D71127E8A8EE00E217AF /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 		E3DB689027E8690C002CA15B /* Scfolder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scfolder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DB689327E8690C002CA15B /* ScfolderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScfolderApp.swift; sourceTree = "<group>"; };
 		E3DB689527E8690C002CA15B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3DB689727E8690E002CA15B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3DB689A27E8690E002CA15B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E3DB689C27E8690E002CA15B /* Scfolder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scfolder.entitlements; sourceTree = "<group>"; };
+		E3DB68A627E869B3002CA15B /* Scfolder Finder Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Scfolder Finder Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DB68A827E869B3002CA15B /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		E3DB68AA27E869B3002CA15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3DB68AB27E869B3002CA15B /* Scfolder_Finder_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scfolder_Finder_Extension.entitlements; sourceTree = "<group>"; };
+		E3DB68B327E86A1A002CA15B /* URL+XATTR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+XATTR.swift"; sourceTree = "<group>"; };
+		E3DB68B627E86CC7002CA15B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3DB68B927E87C9A002CA15B /* Folders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E3DB688D27E8690C002CA15B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DB68A327E869B3002CA15B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				E3DB689227E8690C002CA15B /* Scfolder */,
+				E3DB68A727E869B3002CA15B /* Scfolder Finder Extension */,
 				E3DB689127E8690C002CA15B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				E3DB689027E8690C002CA15B /* Scfolder.app */,
+				E3DB68A627E869B3002CA15B /* Scfolder Finder Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,10 +99,11 @@
 		E3DB689227E8690C002CA15B /* Scfolder */ = {
 			isa = PBXGroup;
 			children = (
-				E3DB689327E8690C002CA15B /* ScfolderApp.swift */,
-				E3DB689527E8690C002CA15B /* ContentView.swift */,
-				E3DB689727E8690E002CA15B /* Assets.xcassets */,
 				E3DB689C27E8690E002CA15B /* Scfolder.entitlements */,
+				E3DB689527E8690C002CA15B /* ContentView.swift */,
+				E372D71127E8A8EE00E217AF /* Quotes.swift */,
+				E3DB689327E8690C002CA15B /* ScfolderApp.swift */,
+				E3DB689727E8690E002CA15B /* Assets.xcassets */,
 				E3DB689927E8690E002CA15B /* Preview Content */,
 			);
 			path = Scfolder;
@@ -69,6 +117,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E3DB68A727E869B3002CA15B /* Scfolder Finder Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E3DB68AB27E869B3002CA15B /* Scfolder_Finder_Extension.entitlements */,
+				E3DB68AA27E869B3002CA15B /* Info.plist */,
+				E3DB68A827E869B3002CA15B /* FinderSync.swift */,
+				E3DB68B327E86A1A002CA15B /* URL+XATTR.swift */,
+				E3DB68B627E86CC7002CA15B /* Assets.xcassets */,
+				E3DB68B927E87C9A002CA15B /* Folders.swift */,
+			);
+			path = "Scfolder Finder Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +140,34 @@
 				E3DB688C27E8690C002CA15B /* Sources */,
 				E3DB688D27E8690C002CA15B /* Frameworks */,
 				E3DB688E27E8690C002CA15B /* Resources */,
+				E3DB68B227E869B3002CA15B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E3DB68AD27E869B3002CA15B /* PBXTargetDependency */,
 			);
 			name = Scfolder;
 			productName = Scfolder;
 			productReference = E3DB689027E8690C002CA15B /* Scfolder.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E3DB68A527E869B3002CA15B /* Scfolder Finder Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DB68AF27E869B3002CA15B /* Build configuration list for PBXNativeTarget "Scfolder Finder Extension" */;
+			buildPhases = (
+				E3DB68A227E869B3002CA15B /* Sources */,
+				E3DB68A327E869B3002CA15B /* Frameworks */,
+				E3DB68A427E869B3002CA15B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scfolder Finder Extension";
+			productName = "Scfolder Finder Extension";
+			productReference = E3DB68A627E869B3002CA15B /* Scfolder Finder Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +180,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					E3DB688F27E8690C002CA15B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E3DB68A527E869B3002CA15B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -118,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				E3DB688F27E8690C002CA15B /* Scfolder */,
+				E3DB68A527E869B3002CA15B /* Scfolder Finder Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +216,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3DB68A427E869B3002CA15B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DB68B727E86CC7002CA15B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,10 +233,29 @@
 			files = (
 				E3DB689627E8690C002CA15B /* ContentView.swift in Sources */,
 				E3DB689427E8690C002CA15B /* ScfolderApp.swift in Sources */,
+				E372D71227E8A8EE00E217AF /* Quotes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DB68A227E869B3002CA15B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DB68A927E869B3002CA15B /* FinderSync.swift in Sources */,
+				E3DB68BA27E87C9A002CA15B /* Folders.swift in Sources */,
+				E3DB68B427E86A1A002CA15B /* URL+XATTR.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3DB68AD27E869B3002CA15B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3DB68A527E869B3002CA15B /* Scfolder Finder Extension */;
+			targetProxy = E3DB68AC27E869B3002CA15B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E3DB689D27E8690E002CA15B /* Debug */ = {
@@ -265,6 +376,7 @@
 		E3DB68A027E8690E002CA15B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Scfolder/Scfolder.entitlements;
@@ -281,7 +393,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = no.lonoy.Scfolder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -292,6 +404,7 @@
 		E3DB68A127E8690E002CA15B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Scfolder/Scfolder.entitlements;
@@ -308,9 +421,63 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = no.lonoy.Scfolder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E3DB68B027E869B3002CA15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Scfolder Finder Extension/Scfolder_Finder_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TC63NBAVGS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scfolder Finder Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Scfolder Finder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.lonoy.Scfolder.Scfolder-Finder-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E3DB68B127E869B3002CA15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Scfolder Finder Extension/Scfolder_Finder_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TC63NBAVGS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scfolder Finder Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Scfolder Finder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.lonoy.Scfolder.Scfolder-Finder-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -333,6 +500,15 @@
 			buildConfigurations = (
 				E3DB68A027E8690E002CA15B /* Debug */,
 				E3DB68A127E8690E002CA15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3DB68AF27E869B3002CA15B /* Build configuration list for PBXNativeTarget "Scfolder Finder Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DB68B027E869B3002CA15B /* Debug */,
+				E3DB68B127E869B3002CA15B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
